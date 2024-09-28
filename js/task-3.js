@@ -17,6 +17,15 @@ class StringBuilder {
     padBoth(str) {
         this.#value = str + this.#value + str;
         
+
+
+
+
+        // попробовал еще сделать так, реультат получатся тот же но не знаю можно ли так делать : 
+        // this.padEnd(str);
+        // this.padEnd(str);
+
+
     }
 }
 const builder = new StringBuilder(".");
